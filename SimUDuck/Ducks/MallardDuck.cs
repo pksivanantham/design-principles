@@ -8,8 +8,10 @@
             flyBehaviour = new FlyWithWings();
         }
 
-       
-
+        public override void Display()
+        {
+            System.Console.WriteLine("Mallard duck----");
+        }
     }
 
 }

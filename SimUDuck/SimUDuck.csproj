@@ -41,12 +41,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Behaviours\FlyNoWay.cs" />
-    <Compile Include="Behaviours\FlyWithWings.cs" />
-    <Compile Include="Behaviours\IFlyBehaviour.cs" />
-    <Compile Include="Behaviours\IQuackBehaviour.cs" />
-    <Compile Include="Behaviours\Quack.cs" />
-    <Compile Include="Behaviours\Squeak.cs" />
+    <Compile Include="Behaviours\Fly\FlyNoWay.cs" />
+    <Compile Include="Behaviours\Fly\FlyWithWings.cs" />
+    <Compile Include="Behaviours\Fly\IFlyBehaviour.cs" />
+    <Compile Include="Behaviours\Quack\IQuackBehaviour.cs" />
+    <Compile Include="Behaviours\Quack\MuteQuack.cs" />
+    <Compile Include="Behaviours\Quack\Quack.cs" />
+    <Compile Include="Behaviours\Quack\Squeak.cs" />
     <Compile Include="DuckProcessor.cs" />
     <Compile Include="Ducks\Duck.cs" />
     <Compile Include="Ducks\MallardDuck.cs" />

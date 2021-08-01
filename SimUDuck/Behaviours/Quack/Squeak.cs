@@ -6,7 +6,7 @@ namespace SimUDuck
     {
         void IQuackBehaviour.Quack()
         {
-            Console.WriteLine("Rubber duck:squeak");
+            Console.WriteLine("Squeak");
         }
     }
 

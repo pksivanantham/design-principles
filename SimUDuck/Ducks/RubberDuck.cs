@@ -8,7 +8,10 @@
             flyBehaviour = new FlyNoWay();
         }
 
-
+        public override void Display()
+        {
+            System.Console.WriteLine("Rubber duck---");
+        }
     }
 
 }

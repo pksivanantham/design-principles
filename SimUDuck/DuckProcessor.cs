@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SimUDuck.Behaviours;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,9 +17,17 @@ namespace SimUDuck
 
             foreach (var item in ducks)
             {
+                item.Display();
+                item.Swim();                
                 item.PerformFly();
                 item.PerformQuack();
+
+
+                item.SetQuackBehaviour(new MuteQuack());
+                item.PerformQuack();
+
             }
         }
     }
 }
+
