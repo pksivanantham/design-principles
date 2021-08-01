@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SimUDuck;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,14 @@ namespace DesignPrinciplesLearning
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Branch1");
+            DuckProcessor duckProcessor = new DuckProcessor();
+
+            duckProcessor.ListDucks();
+
+
+            Console.ReadKey();
         }
     }
+
+    
 }
