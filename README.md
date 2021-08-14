@@ -1,6 +1,39 @@
 # design-principles
 Design principles
 
-Factory Pattern:
+Dependency Inversion Principle:
+
+	Depend upon abstraction and do not depend on implementation(concrete classes)
+	Highlevel modules should not depend on low level modules.Both should depend on abstractions
+		High level components example:Controller,orchestration layer
+		Lower level components example:logger,mail(concrete classes)
+		
+	We can also say program to an interface not an implementation
+	
+	
+	
+Factory Method Pattern:
+
 It defines the interface for creating the object,and allow sub classes to decide which object to create. It defers the object creation to sub classes
 Creator class no need to know about the implementation.Sub class will decide the object creation
+
+We can acheive DSP using this pattern.
+
+
+
+Abstarct Factory Pattern:
+
+Provides an interface to create dependendable or related objects without specifying concrete classes.
+Abstarct factory can containg list of factory methods.
+
+```
+interface IFactory
+{
+ Product1 CreateProduct1();
+ 
+ Product2 CreateProduct2();
+} 
+
+```
+
+

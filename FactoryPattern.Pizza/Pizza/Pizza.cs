@@ -6,24 +6,13 @@ namespace FactoryPattern.Pizza
 {
     public abstract class Pizza 
 	{
-		protected string name;
-		protected string dough;
-		protected string sauce;
+        public string Name { get; set; }
+        protected Dough dough;
+		protected Sauce sauce;
 		protected List<string> toppings = new List<string>();
 
-		public string GetName()
-		{
-			return name;
-		}
-
-		public virtual void Prepare()
-		{
-			Console.WriteLine("Preparing " + name);
-            Console.WriteLine("Tossing dough");
-            Console.WriteLine("Tossing sauce");
-            Console.WriteLine("Tossing toppings");
-			toppings?.ForEach((item) => Console.WriteLine($"  {item}"));
-		}
+		public abstract void Prepare();
+		
 
 		public virtual void Bake()
 		{

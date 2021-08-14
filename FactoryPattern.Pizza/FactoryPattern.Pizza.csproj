@@ -44,13 +44,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Factory\ChicagoIngredientFactory.cs" />
+    <Compile Include="Factory\IIngredientFactory.cs" />
+    <Compile Include="Factory\NYIngredientFactory.cs" />
     <Compile Include="Factory\ISimplePizzaFactory.cs" />
     <Compile Include="Factory\SimplePizzaFactory.cs" />
     <Compile Include="PizzaTestDrive.cs" />
     <Compile Include="Pizza\ChicagoStyleCheesePizza.cs" />
+    <Compile Include="Pizza\Dough.cs" />
     <Compile Include="Pizza\NyStyleCheesePizza.cs" />
     <Compile Include="Pizza\Pizza.cs" />
     <Compile Include="Pizza\PizzaType.cs" />
+    <Compile Include="Pizza\Sauce.cs" />
     <Compile Include="Store\ChicagoStyleStore.cs" />
     <Compile Include="Pizza\IPizza.cs" />
     <Compile Include="Store\NYStyleStore.cs" />
