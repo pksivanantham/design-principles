@@ -20,6 +20,8 @@ namespace FactoryPattern.Pizza
 
             return pizza;
         }
+
+        //Factory method pattern
         protected abstract Pizza CreatePizza(PizzaType pizzaType);
     }
 }

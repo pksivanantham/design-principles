@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace FactoryPattern.Pizza.Factory
 {
+    //Abstract Factory
     public interface IIngredientFactory
     {
         Dough CreateDough();
