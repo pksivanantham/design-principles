@@ -20,8 +20,8 @@ namespace FactoryPattern.Pizza
             SimplePizzaStore simplePizzaStore = new SimplePizzaStore(simplePizzaFactory);
             SimplePizzaStore simplePizzaStore1 = new SimplePizzaStore(simplePizzaFactory1);
 
-            //simplePizzaStore.OrderPizza(PizzaType.Cheese);
-            //simplePizzaStore1.OrderPizza(PizzaType.Margherita);
+            simplePizzaStore.OrderPizza(PizzaType.Cheese);
+            simplePizzaStore1.OrderPizza(PizzaType.Margherita);
 
 
             PizzaStore nyPizzaStore = new NYStyleStore();

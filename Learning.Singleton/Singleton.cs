@@ -13,8 +13,8 @@ namespace Learning.Singleton
 
         private static Singleton _singleton;
 
-        public string InstantiatedTime;
-        private Singleton() => InstantiatedTime = DateTime.Now.ToString("dd-MMM-yyyy hh:mm:ss:zzz");
+        private string instantiatedTime;
+        private Singleton() => instantiatedTime = DateTime.Now.ToString("dd-MMM-yyyy hh:mm:ss:zzz");
 
 
         public static Singleton Instance
@@ -34,7 +34,6 @@ namespace Learning.Singleton
             }
         }
 
-        
-
+        public string InstantiatedTime { get => instantiatedTime; set => instantiatedTime = value; }
     }
 }

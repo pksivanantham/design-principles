@@ -7,20 +7,20 @@ using System.Threading.Tasks;
 
 namespace Learning.Singleton
 {
-    public class Program
+    public static class Program
     {
 
         public static void Main(string[] args)
         {
 
-           // Action action = async () =>
-           //{             
-           //    Console.WriteLine(Singleton.Instance.InstantiatedTime);
+            Action action = async () =>
+           {
+               Console.WriteLine(Singleton.Instance.InstantiatedTime);
 
-           //    await Task.FromResult(10);
-           //};
+               await Task.FromResult(10);
+           };
 
-           // Parallel.Invoke(action, action, action, action);
+            Parallel.Invoke(action, action, action, action);
 
 
             Thread thread1 = new Thread(new ThreadStart(Program.RunThread));
