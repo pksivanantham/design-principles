@@ -15,7 +15,7 @@ namespace Learning.Singleton
 
             Action action = async () =>
            {
-               Console.WriteLine(Singleton.Instance.InstantiatedTime);
+               Console.WriteLine(Singleton.Instance.InstanceWithEagarLoading.InstantiatedTime);
 
                await Task.FromResult(10);
            };
@@ -28,6 +28,7 @@ namespace Learning.Singleton
             Thread thread2 = new Thread(new ThreadStart(Program.RunThread));
             thread2.Start();
 
+           
             Console.ReadKey();
 
         }
@@ -36,7 +37,7 @@ namespace Learning.Singleton
         {
             Thread.Sleep(1000);
 
-            Console.WriteLine(Singleton.Instance.InstantiatedTime);
+            Console.WriteLine(Singleton.Instance.LazyInstance.InstantiatedTime);
         }
     }
 }
