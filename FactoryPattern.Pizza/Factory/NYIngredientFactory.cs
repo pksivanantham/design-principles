@@ -1,21 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace FactoryPattern.Pizza.Factory
+﻿namespace FactoryPattern.Pizza.Factory
 {
     public class NYIngredientFactory : IIngredientFactory
     {
-        Dough IIngredientFactory.CreateDough()
-        {
-            return new Dough();
-        }
+        public Dough CreateDough() => new Dough();
 
-        Sauce IIngredientFactory.CreateSauce()
-        {
-           return new Sauce();
-        }
+        public Sauce CreateSauce() => new Sauce();
     }
 }

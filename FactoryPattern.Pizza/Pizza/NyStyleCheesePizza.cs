@@ -17,6 +17,7 @@ namespace FactoryPattern.Pizza
 
             toppings.Add("cheese");
 
+
             Console.WriteLine("Preparing " + Name);
             Console.WriteLine("Tossing dough");
             Console.WriteLine("Tossing sauce");

@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimUDuck", "SimUDuck\SimUDu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPattern.Pizza", "FactoryPattern.Pizza\FactoryPattern.Pizza.csproj", "{35EB119A-F7F1-4D73-A08E-8A8BD9213498}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learning.Singleton", "Learning.Singleton\Learning.Singleton.csproj", "{DE74D17A-F388-4DC1-975F-DD8F536D9A2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{35EB119A-F7F1-4D73-A08E-8A8BD9213498}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35EB119A-F7F1-4D73-A08E-8A8BD9213498}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35EB119A-F7F1-4D73-A08E-8A8BD9213498}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE74D17A-F388-4DC1-975F-DD8F536D9A2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE74D17A-F388-4DC1-975F-DD8F536D9A2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE74D17A-F388-4DC1-975F-DD8F536D9A2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE74D17A-F388-4DC1-975F-DD8F536D9A2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

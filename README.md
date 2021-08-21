@@ -19,7 +19,8 @@ Creator class no need to know about the implementation.Sub class will decide the
 
 We can acheive DSP using this pattern.
 
-
+It will use classes to create the required objects.
+It will do it through inheritance.
 
 Abstarct Factory Pattern:
 
@@ -35,5 +36,5 @@ interface IFactory
 } 
 
 ```
-
-
+It will uses the objects to create required product. In the above example instances of IFactory is used to create the required objects.
+It will do it using object composition(IFactory can be replaced by any of the IFactory implemented classes)
