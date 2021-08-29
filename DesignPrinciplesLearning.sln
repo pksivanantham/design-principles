@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPattern.Pizza", "Fac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learning.Singleton", "Learning.Singleton\Learning.Singleton.csproj", "{DE74D17A-F388-4DC1-975F-DD8F536D9A2D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPattern.RemoteAPI", "CommandPattern.RemoteAPI\CommandPattern.RemoteAPI.csproj", "{59328928-08EE-4D80-85ED-17317C54FCA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{DE74D17A-F388-4DC1-975F-DD8F536D9A2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE74D17A-F388-4DC1-975F-DD8F536D9A2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE74D17A-F388-4DC1-975F-DD8F536D9A2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59328928-08EE-4D80-85ED-17317C54FCA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59328928-08EE-4D80-85ED-17317C54FCA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59328928-08EE-4D80-85ED-17317C54FCA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59328928-08EE-4D80-85ED-17317C54FCA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
