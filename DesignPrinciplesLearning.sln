@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learning.Singleton", "Learn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPattern.RemoteAPI", "CommandPattern.RemoteAPI\CommandPattern.RemoteAPI.csproj", "{59328928-08EE-4D80-85ED-17317C54FCA5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern.StarBuzzCoffee", "DecoratorPattern.StarBuzzCoffee\DecoratorPattern.StarBuzzCoffee.csproj", "{DFDB2FEE-0D14-4617-8E03-FA1081CC14BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{59328928-08EE-4D80-85ED-17317C54FCA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59328928-08EE-4D80-85ED-17317C54FCA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59328928-08EE-4D80-85ED-17317C54FCA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFDB2FEE-0D14-4617-8E03-FA1081CC14BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFDB2FEE-0D14-4617-8E03-FA1081CC14BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFDB2FEE-0D14-4617-8E03-FA1081CC14BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFDB2FEE-0D14-4617-8E03-FA1081CC14BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
