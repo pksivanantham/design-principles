@@ -12,7 +12,7 @@ namespace DecoratorPattern.StarBuzzCoffee.Codiment
 
         public Cream(Beverage beverage)
         {
-            this._beverage = beverage;
+            _beverage = beverage;
         }
         public override int GetCost()
         {

@@ -12,7 +12,7 @@ namespace DecoratorPattern.StarBuzzCoffee.Codiment
 
         public Mocha(Beverage beverage)
         {
-            this._beverage = beverage;
+            _beverage = beverage;
         }
         public override int GetCost()
         {

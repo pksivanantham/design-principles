@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPattern.RemoteAPI", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern.StarBuzzCoffee", "DecoratorPattern.StarBuzzCoffee\DecoratorPattern.StarBuzzCoffee.csproj", "{DFDB2FEE-0D14-4617-8E03-FA1081CC14BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{3ED6F4E0-F322-4A8D-9046-113357C27F3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{DFDB2FEE-0D14-4617-8E03-FA1081CC14BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFDB2FEE-0D14-4617-8E03-FA1081CC14BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFDB2FEE-0D14-4617-8E03-FA1081CC14BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ED6F4E0-F322-4A8D-9046-113357C27F3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ED6F4E0-F322-4A8D-9046-113357C27F3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ED6F4E0-F322-4A8D-9046-113357C27F3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ED6F4E0-F322-4A8D-9046-113357C27F3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
