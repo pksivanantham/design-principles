@@ -1,6 +1,11 @@
-# design-principles
-Design principles
-[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-orange.svg)](https://sonarcloud.io/dashboard?id=pksivanantham_design-principles)
+# Design principles
+
+[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-black.svg)](https://sonarcloud.io/dashboard?id=pksivanantham_design-principles)
+
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=pksivanantham_design-principles&metric=bugs)](https://sonarcloud.io/dashboard?id=pksivanantham_design-principles)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=pksivanantham_design-principles&metric=code_smells)](https://sonarcloud.io/dashboard?id=pksivanantham_design-principles)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=pksivanantham_design-principles&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=pksivanantham_design-principles)
+
 
 Dependency Inversion Principle:
 
