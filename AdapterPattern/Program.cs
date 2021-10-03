@@ -1,4 +1,5 @@
 ﻿using AdapterPattern.Adapter;
+using AdapterPattern.FacadePattern;
 using System;
 
 namespace AdapterPattern
@@ -7,6 +8,18 @@ namespace AdapterPattern
     {
         static void Main(string[] args)
         {
+
+            TestAdapter();
+
+            TestFacade();
+
+            Console.Read();
+
+        }
+
+        static void TestAdapter()
+        {
+            Console.WriteLine("Adapter Pattern:");
             var duck = new Duck();
             var turkey = new Turkey();
 
@@ -20,9 +33,19 @@ namespace AdapterPattern
             ITurkey turkeyAdaptee = new DuckAdapter(duck);
             turkeyAdaptee.Gobble();
             turkeyAdaptee.Fly();
+        }
 
-            Console.Read();
+        static void TestFacade()
+        {
+            Console.WriteLine("Facade Pattern:");
 
+            var duck = new Duck();
+            var turkey = new Turkey();
+
+            var birdsFacade = new BirdsFacade(duck, turkey);
+
+            birdsFacade.PerformDuck();
+            birdsFacade.PerformTurkey();
         }
     }
 }
